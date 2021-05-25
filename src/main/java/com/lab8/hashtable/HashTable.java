@@ -89,8 +89,4 @@ public class HashTable<E, T extends Container> {
         }
         return Arrays.toString(elements);
     }
-
-    public String toStringTable() {
-        return Arrays.deepToString(table);
-    }
 }
