@@ -26,23 +26,23 @@ class HashTableTest {
 
     private void testTable(HashTable<TwoNumbers, ? extends Container> table, Class<? extends Container> typeContainer) {
         System.out.println("Test HashTable with Container: " + typeContainer.getSimpleName());
-        System.out.println("час : " + testAdd(table, 1_000));
-        System.out.println("час : " + testContains(table));
+        System.out.println("time : " + testAdd(table, 1_000));
+        System.out.println("time : " + testContains(table));
         list.clear();
-        System.out.println("час : " + testAdd(table, 10_000));
-        System.out.println("час : " + testContains(table));
+        System.out.println("time : " + testAdd(table, 10_000));
+        System.out.println("time : " + testContains(table));
         list.clear();
-        System.out.println("час : " + testAdd(table, 100_000));
-        System.out.println("час : " + testContains(table));
+        System.out.println("time : " + testAdd(table, 100_000));
+        System.out.println("time : " + testContains(table));
         list.clear();
-        System.out.println("час : " + testAdd(table, 200_000));
-        System.out.println("час : " + testContains(table));
+        System.out.println("time : " + testAdd(table, 200_000));
+        System.out.println("time : " + testContains(table));
         list.clear();
-        System.out.println("час : " + testAdd(table, 500_000));
-        System.out.println("час : " + testContains(table));
+        System.out.println("time : " + testAdd(table, 500_000));
+        System.out.println("time : " + testContains(table));
         list.clear();
-        System.out.println("час : " + testAdd(table, 1_000_000));
-        System.out.println("час : " + testContains(table));
+        System.out.println("time : " + testAdd(table, 1_000_000));
+        System.out.println("time : " + testContains(table));
     }
 
     private String  testAdd(HashTable<TwoNumbers, ? extends Container> table, int quantity) {
